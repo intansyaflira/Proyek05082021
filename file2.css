@@ -1,0 +1,51 @@
+body {
+    background-color: lavender;
+}
+
+header {
+    width: 100%;
+    background-color: #F5C6AA;
+    text-align: center;
+}
+
+nav {
+    width: 20%;
+    background-color: #FEF7DC;
+    float: left;
+    height: 500px;
+}
+
+ul.vertical {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #FCDEC0;
+    
+}
+
+ul.vertical li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+ul.vertical li a:hover{
+    background-color: #7D5A50;
+    color: white;
+}
+
+div.content {
+    width: 80%;
+    background-color: #FDF6F0;
+    float: right;
+    height: 500px;
+}
+
+footer {
+    width: 100%;
+    background-color: #CDBBA7;
+    text-align: center;
+}
